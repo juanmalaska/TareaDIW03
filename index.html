@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="author" content="Juan Manuel Añino"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <link  rel="icon"   href="img/favicon.jpg" type="image/jgp" />
+
+        <title>supervivencia zombie cartagena</title>       
+    </head>
+    <body>
+    <div class="container">
+        <header>
+            <div class="flex_row flex_items_centrado">
+                <div class="buscador">
+                    <input type="search" id="search" class="box" placeholder="Buscar"/>
+                </div>
+                <div class="flex_grow">
+                    <p id="titulo">SUPERVIVENCIA ZOMBIE<br>CARTAGENA</p>
+                </div>
+                <div>
+                    <audio controls autoplay id="sonido">
+                        <source src="sound/soundtrack.mp3" type="audio/mp3">
+                            Tu navegador no soporta audio HTML5.
+                    </audio>
+                </div>
+            </div>
+            
+            <div class="flex_items_centrado">
+                <a id="menu" href="#" >ALIMENTACION</a>
+                <a id="menu" href="#" >ALOJAMIENTOS</a>
+                <a id="menu" href="#" >CENTROS MEDICOS</a>
+                <a id="menu" href="#" >ABASTECIMIENTO</a>
+                <a id="menu" href="#" >ENTRETENIMIENTO</a>
+            </div>
+        </header>
+        <div class="imagen">
+            <img src="img/zombie.jpg">
+        </div>
+        <div>
+            <article >
+                <div class="flex_row" id="lugares">
+                    LOS LUGARES MAS VISITADOS
+                </div>
+                <div class=" flex_row" id="lugares" >
+                    
+                        <figure>
+                            <a href="#" target="_blank"><img src="img/centrocomercial.jpg" alt="Centro Comercial" id="icono">                        
+                            <figcaption id="descripcion">Centro Comercial y de Ocio<br>Espacio Mediterráneo</figcaption></a>
+                          </figure>
+ 
+                        <figure>
+                            <a href="#" target="_blank"><img src="img/gasolinera.jpg" alt="Gasolinera repsol" id="icono">                      
+                            <figcaption id="descripcion">Estación Repsol</figcaption></a>
+                          </figure>
+   
+                        <figure>
+                            <a href="#" target="_blank"><img src="img/hotelNH.jpg" alt="Hotel NH" id="icono">                      
+                            <figcaption id="descripcion">Hotel NH Cartagena</figcaption></a>
+                          </figure>
+           
+                        <figure>
+                            <a href="#" target="_blank"><img src="img/chale.jpg" alt="El chale" id="icono">                      
+                            <figcaption id="descripcion">El Chalé</figcaption></a>
+                          </figure>   
+                    </div>
+                </div>
+                <div class="flex_items_centrado" id="centrado">
+                    <a  id="boton" href="#">Ver&nbsp;todo</a> 
+                </div>
+            </article>
+            <div class="flex_items_centrado" id="suscriptcion">
+                <p>SUSCRIBETE Y RECIBE DESUENTOS ESPECIALES</p>
+                <p id="correo">Déjanos tu correo y recibe ayuda para sobrevivir</p>
+
+                <section>
+                    <form action="#" method="post" accept-charset="utf-8" id="subscribe-blog">
+                        <p>
+                            <input type="text" name="email" class="insertar" placeholder="Correo electronico" value="" /><input type="submit" value="Suscribirme" id="botonemail"/>
+                        </p>
+                    </form>
+            </div>
+            </section>
+            <footer class="footer">
+                <div>  
+                    <div>
+                        <p id="lugares">HISTORIAS DE SUPERVIVIENTES</p>
+                    </div>
+                        <div class="containerslider">
+        
+                            <ul class="slider">
+                                <li id="slide1">
+                                    <img src="img/comentario1.JPG"/>
+                                </li>
+                                <li id="slide2">
+                                    <img src="img/comentario2.JPG"/>
+                                </li>
+                                <li id="slide3">
+                                    <img src="img/comentario3.JPG"/>
+                                </li>
+                            </ul>
+                            
+                            <ul class="menuslider">
+                                <li>
+                                    <a href="#slide1">&bullet;</a>
+                                </li>
+                                <li>
+                                    <a href="#slide2">&bullet;</a>
+                                </li>
+                                <li>
+                                    <a href="#slide3">&bullet;</a>
+                                </li>
+                            </ul>
+                            
+                        </div>
+
+                    <div class="flex_row ">
+                        <div id="titulopie">SUPERVIVENCIA ZOMBIE<br>CARTAGENA</div>
+                        <div id="titulopie"><h6>&#9400; Todos los derechos reservados</h6></div>
+                        <div id="redessociales">
+                            <a href="http://gmail.com/" target="_blank"><img alt="envia email" src="img/email.png" class="flex_iconos"/></a>
+                            <a href="http://www.facebook.com/" target="_blank"><img alt="Siguenos en Facebook" src="img/facebook.png" class="flex_iconos"/></a>
+                            <a href="http://twitter.com/" target="_blank"><img src="img/twitter.png" class="flex_iconos" alt="Síguenos en Twitter"/></a>
+                            <a href="http://instagram.com/" target="_blank"><img alt="Siguenos en Blogger" src="img/instagram.png" class="flex_iconos"/></a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>   
+    </body>
+</html>
